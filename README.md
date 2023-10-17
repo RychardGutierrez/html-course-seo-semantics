@@ -1,0 +1,65 @@
+# Full HTML - SEO, Semantics
+
+### Content:
+
+- Introduction
+- What is HTML?
+  - Hypertext markup language
+- What HTML Is and Isn't Responsible For
+  - Descrive content
+- First HTML File
+- What Are Tags?
+- Semantics
+- How to Use the Extension
+- Headings (h1-h6)
+- Paragraphs
+- Nested Elements (strong)
+- Unordered Lists
+- Bad Practices
+- Replacement Elements (img, input, br...)
+- Attributes
+- Important Attribute Details
+- Boolean Attributes
+- Avoiding Capitalization
+- ID Attribute
+- Class Attribute
+- MDN
+- Center Tag
+- Em Tag
+- Default Styles
+- Basic Structure
+- The Purpose of the Head and Body?
+- UTF-8 Metadata
+- Viewport Metadata
+- Title Tag
+- Robots and Theme Color Metadata
+- Favicon
+- SEO Tags
+- Style Tag
+- Semantic HTML
+- Example of Semantic HTML
+- Article Tag
+- Small Tag
+- Continuing with Semantics
+- Aside Tag
+- Why So Many Headers, What Is Section, Aside, Article
+- Main and Anchor Tags
+- rel="noreferer" Attribute
+- Div and Span
+- Role Attribute
+- Special Links
+- List Attributes (ol, ul)
+- Form Tags
+- Fieldset, Label, Input
+- Inline and Block Elements
+- Continuing with the Form
+- Form Validation
+- Datalist
+- Details Tag
+- input submit vs button submit
+- Video Tag
+- Audio Tag
+- Loading lazy Attribute
+- Iframes
+- Dialog Tag (for Modals)
+- Farewell

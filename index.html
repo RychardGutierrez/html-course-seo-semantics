@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!--Codification-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simon Page</title>
+
+    <meta
+      name="description"
+      content="Portafolio of Simon, 15 year of experience like ingeniero software"
+    />
+    <!-- OPEN GRAPH to social media -->
+    <meta property="og:title" content="Portafolio of Simon" />
+    <meta
+      property="og:description"
+      content="Portafolio of Simon - Ingeniero software"
+    />
+    <meta property="og:image" content="./img/fox.jpg" />
+    <!-- More... -->
+
+    <link rel="alternative" href="https://simon.dev/en" hreflang="es-GB" />
+    <link rel="canonical" href="https://simon.dev" />
+
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#09f" />
+    <link rel="icon" type="image/jpg" href="./img/fox.jpg" />
+
+    <style>
+      body {
+        background-color: #cacaca;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Simon page</h1>
+      <!-- H1,h2,h3,h4,h5,h6.... -->
+      <nav>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="https://twitch.tv" target="_blank" rel="noreferrer">Twitch</a>
+      </nav>
+    </header>
+    <section>
+      <video
+        controls
+        autoplay
+        muted
+        src="https://www.youtube.com/watch?v=HXYZxVbWkjc"
+      ></video>
+    </section>
+    <section>
+      <audio controls src=""></audio>
+    </section>
+
+    <!-- <iframe
+      style="width: 100%; aspect-ratio: 16/9"
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/3nYLTiY5skU?si=z_7CiTa3bQLa5aME"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+    ></iframe> -->
+
+    <dialog id="modal">
+      <h1>This is new modal</h1>
+      <p>and this is native</p>
+      <button type="button" id="hide">Close</button>
+    </dialog>
+
+    <button type="button" id="show">Show more information</button>
+    <script>
+      window.show.addEventListener('click', () => {
+        window.modal.showModal();
+      });
+
+      window.hide.addEventListener('click', () => {
+        window.modal.close();
+      });
+    </script>
+    <main>
+      <p>
+        +15 years like experience of
+        <strong>Ingeniero software.</strong> Creator and share of programation.
+      </p>
+
+      <h2 id="experience">Experience</h2>
+      <ul>
+        <li class="list-item">Adenta -2022</li>
+        <li class="list-item">Hubi -2020</li>
+        <li class="list-item">Nacencia -2014</li>
+        <li class="list-item">Adenta -2022</li>
+      </ul>
+      <a download href="./img/fox.jpg">
+        <img
+          src="./img/fox.jpg"
+          alt="Fox sleep"
+          title="Fox sleep"
+          width="250"
+          height="300"
+          id="avatar-image"
+        />
+      </a>
+
+      <h2 id="projects">Projects</h2>
+      <aside>
+        <header>
+          <h3>My like Tecnologies</h3>
+        </header>
+        <img
+          src="./img/fox.jpg"
+          loading="lazy"
+          style="width: 10%; aspect-ratio: 5/7"
+        />
+        <ol type="1" reversed start="10">
+          <li>HTML</li>
+          <li value="100">CSS</li>
+          <li>JavaScript</li>
+          <li>Node.js</li>
+        </ol>
+      </aside>
+
+      <section>
+        <article>
+          <header><h4>Web coorporative site</h4></header>
+          <p>
+            Development cooporative web site with a interfaz friendy and moder
+          </p>
+          <footer>
+            <small>Tecnologies use: HTML, CSS, JavaScript</small>
+          </footer>
+        </article>
+      </section>
+
+      <section>
+        <article>
+          <header><h4>E-coomerce site</h4></header>
+          <p>
+            Development cooporative web site with a interfaz friendy and moder
+          </p>
+          <footer>
+            <small>Tecnologies use: HTML, CSS, JavaScript</small>
+          </footer>
+        </article>
+      </section>
+
+      <section>
+        <article>
+          <header><h4>Web coorporative site</h4></header>
+          <p>
+            Development cooporative web site with a interfaz friendy and moder
+          </p>
+          <footer>
+            <small>Tecnologies use: HTML, CSS, JavaScript</small>
+          </footer>
+        </article>
+      </section>
+
+      <section>
+        <h2>Questions?</h2>
+
+        <details open>
+          <summary>What is your proffesion?</summary>
+          <p>My prosseion is developer</p>
+        </details>
+        <details>
+          <summary>What is your best projet?</summary>
+          <p>I have implemented a sistem OP</p>
+        </details>
+        <details>
+          <summary>What is your favorite languaje?</summary>
+          <p>JavaScript</p>
+        </details>
+      </section>
+
+      <section>
+        <h2>Contact Form</h2>
+
+        <form method="post" action="/">
+          <fieldset>
+            <legend>Personal information</legend>
+            <div>
+              <label for="name">Name: </label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Simon petrico"
+                required
+              />
+            </div>
+            <div>
+              <label>
+                Age:
+                <input
+                  type="number"
+                  id="age"
+                  name="age"
+                  placeholder="41"
+                  required
+                />
+              </label>
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend>Otros fields</legend>
+            <div>
+              <label for="Why">
+                Why you need update the personal information
+              </label>
+              <select name="why" id="why">
+                <option value="work">Work</option>
+                <option value="study">Study</option>
+                <option value="update">Update information</option>
+              </select>
+            </div>
+            <div>
+              <label form="terms">Do you accept conditions?</label>
+              <input type="checkbox" id="terms" name="terms" required />
+            </div>
+
+            <!-- Autocomplete for the options -->
+            <div>
+              <datalist id="languages">
+                <option value="JavaScript"></option>
+                <option value="Python"></option>
+                <option value="Java"></option>
+                <option value="C#"></option>
+              </datalist>
+              <label for="language">What language do you want use?</label>
+              <input id="language" name="language" list="languages" />
+            </div>
+          </fieldset>
+          <!-- <input type="submit" value="Send information" /> -->
+          <button type="submit">Send information</button>
+        </form>
+      </section>
+    </main>
+
+    <!-- https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles -->
+    <div role="banner">this is banner</div>
+    <footer>
+      Copyright - 2023 the best portafoli the of world
+      <a href="mailto:simon@gmail.com">Send email</a>
+      <a href="tel:+519 123456789">Call by cellphone</a>
+      <a href="whatsapp://send?text=Hola Simon">Send by Whatsapp</a>
+    </footer>
+  </body>
+</html>
